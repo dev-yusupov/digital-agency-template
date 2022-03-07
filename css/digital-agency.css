@@ -92,7 +92,29 @@ a.filled-button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 50px;
+}
+.main-section .main-section-text {
+    max-width: 600px;
+    align-items: center;
+}
+.main-section .main-section-text .main-section-text-text h1 {
+    font-size: 56px;
+    letter-spacing: 2px;
+}
+.main-section .main-section-text .main-section-text-text p {
+    font-size: 14px;
+    margin-top: 50px;
+    line-height: 36px;
+}
+.main-section-text-link {
+    margin-top: 50px;
+}
+.main-section-text-link a {
+    justify-content: left;
+    text-align: left;
 }
 .main-section .main-section-image img {
     width: 500px;
+    align-items: center;
 }
