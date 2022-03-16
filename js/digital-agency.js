@@ -1,5 +1,7 @@
 const navbar = document.querySelector('.navbar');
 const content = document.querySelector(".services-content");
+const hamburger = document.querySelector(".hamburger")
+const navItems = document.querySelector(".nav-items")
 
 window.addEventListener('scroll', function(){
     if (this.document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -9,3 +11,8 @@ window.addEventListener('scroll', function(){
         navbar.classList.remove("navbar-active");
     }
 });
+
+hamburger.addEventListener('click', function () {
+    navItems.classList.toggle('nav-items-active');
+    navItems.classList.toggle('nav-items');
+})
