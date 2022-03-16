@@ -16,3 +16,10 @@ hamburger.addEventListener('click', function () {
     navItems.classList.toggle('nav-items-active');
     navItems.classList.toggle('nav-items');
 })
+
+function hoverContent(element) {
+    element.classList.add('services-content-active')
+}
+function hoverContentRm(element) {
+    element.classList.remove('services-content-active')
+}
