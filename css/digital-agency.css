@@ -291,10 +291,10 @@ a.filled-button:hover {
 }
 .contact-section-input {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 .contact-section-input>input {
     padding: 10px 20px;
@@ -315,6 +315,7 @@ a.filled-button:hover {
     display: flex;
     flex-direction: row;
     column-gap: 30px;
+
 }
 .contact-main .info {
     display: flex;
@@ -560,7 +561,7 @@ footer .footer-input .social-medias a {
 }
 .contact-section-input {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -584,6 +585,13 @@ footer .footer-input .social-medias a {
     display: flex;
     flex-direction: column;
     column-gap: 30px;
+}
+.contact-section-info {
+    display: flex;
+    flex-direction: column;
+}
+.contact-section-info .info {
+    width:  100%;
 }
 /* footer */
 footer {
