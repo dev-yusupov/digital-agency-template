@@ -217,7 +217,8 @@ a.filled-button:hover {
     padding-bottom: 50px;
 }
 .portfolio-text h1 {
-    line-height: 60px;
+    line-height: 40px;
+    font-size: 34px;
 }
 .portfolio-images {
     display: flex;
@@ -233,6 +234,9 @@ a.filled-button:hover {
 
 .team {
     padding: 0px 100px;
+}
+.team h1 {
+    font-size: 36px;
 }
 .team img {
     width: 250px;
@@ -272,24 +276,25 @@ a.filled-button:hover {
 }
 /* /Team */
 .contact-section {
-    padding: 0px 100px;
+    padding: 0px 50px;
     border-bottom: 1px solid rgba(211, 211, 211, 0.623);
     padding-bottom: 100px;
+    width: 100%;
 }
 .contact-section h1 {
     line-height: 50px;
 }
 .contact-section-inputs {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     max-width: 55%;
 }
 .contact-section-input {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 .contact-section-input>input {
     padding: 10px 20px;
@@ -409,6 +414,7 @@ footer .footer-input .social-medias a {
 
 .navbar {
     grid-template-areas: "siteLogo siteButton";
+    width: 100%;
 }
 .navbar-active {
     top: 0;
@@ -417,12 +423,8 @@ footer .footer-input .social-medias a {
     z-index: 2;
 }
 .navbar .site-logo {
-    align-items: center;
     grid-area: "siteLogo";
-    font-size: 28px;
-    text-align: center;
-    font-weight: 900;
-    cursor: pointer;
+    font-size: 23px;
 }
 .hamburger {
     display: initial;
@@ -465,6 +467,8 @@ footer .footer-input .social-medias a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 0px 50px;
 }
 .main-section .main-section-text {
     max-width: 600px;
@@ -475,9 +479,9 @@ footer .footer-input .social-medias a {
     letter-spacing: 1px;
 }
 .main-section .main-section-text .main-section-text-text p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 50px;
-    line-height: 36px;
+    line-height: 26px;
 }
 .main-section-text-link {
     margin-top: 50px;
@@ -496,6 +500,7 @@ footer .footer-input .social-medias a {
 .about-us-section{
     flex-direction: column-reverse;
     align-items: center;
+    padding: 0px 50px;
 }
 .about-us-section .about-us-image img {
     width: 450px;
@@ -522,7 +527,7 @@ footer .footer-input .social-medias a {
     align-items: center;
 }
 .portfolio-images .portfolio-image img {
-    width: 500px;
+    width: 100%;
     margin-top: 30px;
 }
 /* /Portfolio */
@@ -586,6 +591,7 @@ footer {
     column-gap: 0px;
     text-align: center;
     align-items: center;
+    width: 100%;
 }
 footer .footer-text {
     max-width: 40%;
