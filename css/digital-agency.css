@@ -593,6 +593,9 @@ footer .footer-input .social-medias a {
 .contact-section-info .info {
     width:  100%;
 }
+.contact-section-info .info {
+    font-size: 80%;
+}
 /* footer */
 footer {
     flex-direction: column;
@@ -600,9 +603,10 @@ footer {
     text-align: center;
     align-items: center;
     width: 100%;
+    padding: 0px;
 }
 footer .footer-text {
-    max-width: 40%;
+    max-width: 80%;
 }
 footer .footer-text p {
     font-size: 15px;
