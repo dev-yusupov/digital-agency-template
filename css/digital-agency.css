@@ -511,6 +511,13 @@ footer .footer-input .social-medias a {
 
 /* Services */
 
+.services .services-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .services .services-contents {
     display: flex;
     flex-direction: column;
@@ -551,6 +558,9 @@ footer .footer-input .social-medias a {
     margin-top: 30px;
 }
 /* /Team */
+.contact-section {
+    text-align: center;
+}
 .contact-section h1 {
     line-height: 50px;
 }
@@ -584,7 +594,8 @@ footer .footer-input .social-medias a {
 .contact-main {
     display: flex;
     flex-direction: column;
-    column-gap: 30px;
+    align-items: center;
+    text-align: center;
 }
 .contact-section-info {
     display: flex;
